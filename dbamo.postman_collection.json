@@ -1,0 +1,2488 @@
+{
+	"info": {
+		"_postman_id": "5a79f59b-3323-460c-b16f-4edd969b5626",
+		"name": "dbamo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22570828"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"item": [
+				{
+					"name": "person",
+					"item": [
+						{
+							"name": "localhost:8080/person/create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreExp\":\"Eon \",\r\n    \"fechaInicio\":\"1999-01-01\",\r\n    \"fechaFinal\":\"1999-12-31\",\r\n    \"descExp\":\"Parchis4\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/expjob/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"expjob",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "educat",
+					"item": [
+						{
+							"name": "localhost:8080/educat/create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n    \"nombreEduc\": \" painter. \",\r\n    \"fechaInicio\": \"1976-12-31\",\r\n    \"fechaFinal\": \"1978-01-01\",\r\n    \"descEduc\": \"College of Arts Shanghai\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n    \"nombreEduc\": \" painter. \",\r\n    \"fechaInicio\": \"1976-12-31\",\r\n    \"fechaFinal\": \"1978-01-01\",\r\n    \"descEduc\": \"College of Arts Shanghai\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n    \"nombreEduc\": \" painter. \",\r\n    \"fechaInicio\": \"1976-12-31\",\r\n    \"fechaFinal\": \"1978-01-01\",\r\n    \"descEduc\": \"College of Arts Shanghai\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n    \"nombreEduc\": \" painter. \",\r\n    \"fechaInicio\": \"1976-12-31\",\r\n    \"fechaFinal\": \"1978-01-01\",\r\n    \"descEduc\": \"College of Arts Shanghai\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY2MTg3MDc4OCwiZXhwIjoxNjYxODc0Mzg4fQ.nGo52VaCl4KgCNjbPGQUnTcG4KFWXjCV4i46Hfc0XF8KcMiYPaRs2fC6ipjzAaiS8jDdk6g92honEL6Uue9Fvw",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreEduc\":\"school of Hong Kong\",\r\n    \"fechaInicio\":\"01-01-1977\",\r\n    \"fechaFinal\":\"31-12-1978\",\r\n    \"descEduc\":\"Artes Orientales\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "auth",
+					"item": [
+						{
+							"name": "localhost:8080/auth/login",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "$2a$10$0nqaw1z9atopAGRGjPQlteX55Cpi0RWHyyQgt6VL7EbBFG4NDHFvy",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreUsuario\":\"admin\",\r\n    \"password\":\"zaratustraenBaton\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/auth/login",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"auth",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/localhost:8080",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "$2a$10$4VuqisoHpTCKcq34U7LK9OyXz7DYETkBm6/WCL9l8ac4gqwUcM6K2",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreUsuario\":\"user\",\r\n    \"password\":\"constantinopla\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/auth/login",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"auth",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/auth/news",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY2NjM2MDkxNSwiZXhwIjoxNjY2MzY0NTE1fQ.8y-rf7hclCmeUpXe2xacEnkoWXOZPXRQUELcV1vX1auy_lbE5zYvfpvBhQGzBcCBpsvNfP0aOz2-m_DhQxcGsw",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombre\":\"Juan Gomez\",\r\n    \"nombreUsuario\":\"juanito\",\r\n    \"email\":\"juanito@gmail.com\",\r\n    \"password\":\"machupichu\"\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/auth/news",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"auth",
+										"news"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/auth/login",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "$2a$10$0nqaw1z9atopAGRGjPQlteX55Cpi0RWHyyQgt6VL7EbBFG4NDHFvy",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreUsuario\":\"juanito\",\r\n    \"password\":\"machupichu\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/auth/login",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"auth",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/auth/news",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombre\":\"admin\",\r\n    \"nombreUsuario\":\"admin\",\r\n    \"email\":\"admin@admin.com\",\r\n    \"password\":\"zaratustra\",\r\n    \"roles\":[\"ROLE_ADMIN\"]\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/auth/news",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"auth",
+										"news"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/auth/news",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY2MTg3MDExOCwiZXhwIjoxNjYxODczNzE4fQ.HPCdr43GjUi9KtkEb7agzdWmIhCmKJZIT--nVui80SRtiveD25zngVPI2UQeRo7YR2B_CLGYk5UMW7sMv32tow",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombre\":\"user1\",\r\n    \"nombreUsuario\":\"user1\",\r\n    \"email\":\"user1@user1.com\",\r\n    \"password\":\"shangri-la\"\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/auth/news",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"auth",
+										"news"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "expjob",
+					"item": [
+						{
+							"name": "localhost:8080/expjob/create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreExp\":\"Monguito\",\r\n    \"fechaInico\":\"1-1-1979\",\r\n    \"fechaFinal\":\"31-12-1982\",\r\n    \"descExp\":\"Sofovich producciones\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/expjob/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"expjob",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "sh&ss",
+					"item": [
+						{
+							"name": "localhost:8080/sh&ss/create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"porcentaje\":\"95\",\r\n    \"imagen\":\" https://i.ibb.co/x1V0D77/cgrupal.png\",\r\n    \"color\":\"orange\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"porcentaje\":\"95\",\r\n    \"imagen\":\" https://i.ibb.co/x1V0D77/cgrupal.png\",\r\n    \"color\":\"orange\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n   \"porcentaje\":\"77\",\r\n    \"imagen\":\"https://i.ibb.co/b5zLp76/Adaptability.png\",\r\n    \"color\":\"green\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombre\":\"basic\",\r\n    \"porcentaje\":\"95\",\r\n    \"imagen\":\" https://i.ibb.co/x1V0D77/cgrupal.png\",\r\n    \"color\":\"orange\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombre\":\"basic\",\r\n    \"porcentaje\":\"95\",\r\n    \"imagen\":\" https://i.ibb.co/x1V0D77/cgrupal.png\",\r\n    \"color\":\"orange\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "proje",
+					"item": [
+						{
+							"name": "localhost:8080/proje/create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreProj\":\"chatBot Whatsapp\",\r\n    \"descProj\":\"es un chatBot con IA de google\",\r\n    \"imagenProj\":\"urlSite\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/proje/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"proje",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/proje/create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreProj\":\"chatBot Telegram\",\r\n    \"descProj\":\"es un chatBot con IA de google\",\r\n    \"imagenProj\":\"urlSite\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/proje/create",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"proje",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "expjob",
+					"item": [
+						{
+							"name": "localhost:8080/expjob/list",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/expjob/list",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"expjob",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/expjob/list",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/expjob/list",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"expjob",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/expjob/list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n    \"nombreExp\": \" albañil \",\r\n    \"fechaInicio\": \"1975-12-31\",\r\n    \"fechaFinal\": \"1979-01-01\",\r\n    \"descExp\": \"Obras de Atenas\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/expjob/list",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"expjob",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/expjob/list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n    \"nombreExp\": \" albañil \",\r\n    \"fechaInicio\": \"1975-12-31\",\r\n    \"fechaFinal\": \"1979-01-01\",\r\n    \"descExp\": \"Obras de Atenas\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/expjob/detail/2",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"expjob",
+										"detail",
+										"2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/expjob/detail/4",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/expjob/detail/4",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"expjob",
+										"detail",
+										"4"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "educat",
+					"item": [
+						{
+							"name": "localhost:8080/educat/detail/2",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/detail/1",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"detail",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/list",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/educat/list",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/list",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/educat/list",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n    \"nombreEduc\": \" yaesro \",\r\n    \"fechaInicio\": \"1975-12-31\",\r\n    \"fechaFinal\": \"1979-01-01\",\r\n    \"descEduc\": \"College of Arts Sydney\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/list",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/list",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/educat/list",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/detail/3",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/detail/3",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"detail",
+										"3"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "sh&ss",
+					"item": [
+						{
+							"name": "localhost:8080/sh&ss/detail7",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/sh&ss/detail/1",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"detail",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/api/skill/list",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"skill",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreSkill\":\"C\",\r\n    \"imagenSkill\":\"urlC\",\r\n    \"porcentaje\":\"77\",\r\n    \"color\":\"green\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/list",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreSkill\":\"C\",\r\n    \"imagenSkill\":\"urlC\",\r\n    \"porcentaje\":\"77\",\r\n    \"color\":\"green\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/list",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/detail/10",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreSkill\":\"C\",\r\n    \"imagenSkill\":\"urlC\",\r\n    \"porcentaje\":\"77\",\r\n    \"color\":\"green\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/detail/10",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"detail",
+										"10"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/detail/10",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreSkill\":\"C\",\r\n    \"imagenSkill\":\"urlC\",\r\n    \"porcentaje\":\"77\",\r\n    \"color\":\"green\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/detail/4",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"detail",
+										"4"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "proje",
+					"item": [
+						{
+							"name": "localhost:8080/proje/detail/2",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/proje/list",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"proje",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/proje/list",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/proje/detail/2",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"proje",
+										"detail",
+										"2"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "person",
+					"item": [
+						{
+							"name": "localhost:8080/person/list",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/person/list",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"person",
+										"list"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "PUT",
+			"item": [
+				{
+					"name": "expjob",
+					"item": [
+						{
+							"name": "localhost:8080/expjob/update/4",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreExp\":\"EOXN\",\r\n    \"fechaInicio\":\"1911-11-11\",\r\n    \"fechaFinal\":\"1913-11-11\",\r\n    \"descExp\":\"ET monguito\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/expjob/update/10?",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"expjob",
+										"update",
+										"10"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/expjob/update/4",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n    \"nombreExp\": \" production \",\r\n    \"fechaInicio\": \"1975-12-31\",\r\n    \"fechaFinal\": \"1979-01-01\",\r\n    \"descExp\": \"Obras de Atenas\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/expjob/update/2",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"expjob",
+										"update",
+										"2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/expjob/update/4",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjU5NzI2NTU0LCJleHAiOjE2NTk3MzAxNTR9.nz5DuQb_g-FJmGybhJDhurX3BtW9exa4Tz2FOzZO2wzP8Y96FkbWSI5-fsOG4thZwm143SnjpttB8E7uB4mlNg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n    \"nombreExp\": \" productions \",\r\n    \"fechaInicio\": \"1975-12-31\",\r\n    \"fechaFinal\": \"1979-01-01\",\r\n    \"descExp\": \"Obras de Budapest\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/expjob/update/4",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"expjob",
+										"update",
+										"4"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "educat",
+					"item": [
+						{
+							"name": "localhost:8080/educat/update/3",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreEduc\":\"EOXN\",\r\n    \"fechaInicio\":\"1911-11-11\",\r\n    \"fechaFinal\":\"1913-11-11\",\r\n    \"descEduc\":\"ET monguito\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/update/4?",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"update",
+										"4"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/update/5",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreEduc\":\"Ess 1\",\r\n    \"fechaInicio\":\"1965-11-11\",\r\n    \"fechaFinal\":\"2018-11-11\",\r\n    \"descEduc\":\"maestro histerico\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/update/5?",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"update",
+										"5"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/update/2",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreEduc\":\"Saint Gregory of Tokyo\",\r\n    \"fechaInico\":\"1-1-1974\",\r\n    \"fechaFinal\":\"31-12-1978\",\r\n    \"descEduc\":\"Pintor surrealista e impresionista\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/update/2",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"update",
+										"2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/person/update/1",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreEduc\": \"Arts of Shanghai\",\r\n        \"fechaInicio\": \"1977-11-11\",\r\n        \"fechaFinal\": \"1980-12-11\",\r\n        \"descEduc\": \"Tecnicas de pictograficas orientales\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/update/2",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"update",
+										"2"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "sh&ss",
+					"item": [
+						{
+							"name": "localhost:8080/sh&ss/update/17",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY2MjAzODQ0OSwiZXhwIjoxNjYyMDQyMDQ5fQ.M6ByASpEMKHIni2XZOfZ_7S3Cirf5kimFZNswP3mQZuw1B-z5XAKG1mv6z0ErfUHFmYCMIQEfHgOdRyQebMD8g",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":\"12\",\r\n    \"color\":\"dark\",\r\n    \"imagen\": \" https://i.ibb.co/x1V0D77/cgrupal.png\",\r\n    \"porcentaje\": 55,\r\n    \"nombre\": \"Pascal\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/update",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY2MjAzODQ0OSwiZXhwIjoxNjYyMDQyMDQ5fQ.M6ByASpEMKHIni2XZOfZ_7S3Cirf5kimFZNswP3mQZuw1B-z5XAKG1mv6z0ErfUHFmYCMIQEfHgOdRyQebMD8g",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":\"1\",\r\n    \"color\":\"blue\",\r\n    \"imagen\": \" https://i.ibb.co/cT9yvMy/Css.png\",\r\n    \"porcentaje\": 99,\r\n    \"nombre\": \"CSS\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/update",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY2MjAzODQ0OSwiZXhwIjoxNjYyMDQyMDQ5fQ.M6ByASpEMKHIni2XZOfZ_7S3Cirf5kimFZNswP3mQZuw1B-z5XAKG1mv6z0ErfUHFmYCMIQEfHgOdRyQebMD8g",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":\"1\",\r\n    \"color\":\"blue\",\r\n    \"imagen\": \" https://i.ibb.co/cT9yvMy/Css.png\",\r\n    \"porcentaje\": 98,\r\n    \"nombre\": \"CSS\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/update",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY2MjAzODQ0OSwiZXhwIjoxNjYyMDQyMDQ5fQ.M6ByASpEMKHIni2XZOfZ_7S3Cirf5kimFZNswP3mQZuw1B-z5XAKG1mv6z0ErfUHFmYCMIQEfHgOdRyQebMD8g",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":\"1\",\r\n    \"color\":\"blue\",\r\n    \"imagen\": \" https://i.ibb.co/cT9yvMy/Css.png\",\r\n    \"porcentaje\": 98\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/update",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/update/15?",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY2MjAzODQ0OSwiZXhwIjoxNjYyMDQyMDQ5fQ.M6ByASpEMKHIni2XZOfZ_7S3Cirf5kimFZNswP3mQZuw1B-z5XAKG1mv6z0ErfUHFmYCMIQEfHgOdRyQebMD8g",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"color\":\"red\",\r\n    \"imagen\": \" https://i.ibb.co/cT9yvMy/Css.png\",\r\n    \"porcentaje\": 98\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/update/15?color=red&imagen=url skill&porcentaje=95",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"update",
+										"15"
+									],
+									"query": [
+										{
+											"key": "color",
+											"value": "red"
+										},
+										{
+											"key": "imagen",
+											"value": "url skill"
+										},
+										{
+											"key": "porcentaje",
+											"value": "95"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/update/15?",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY2MjAzODQ0OSwiZXhwIjoxNjYyMDQyMDQ5fQ.M6ByASpEMKHIni2XZOfZ_7S3Cirf5kimFZNswP3mQZuw1B-z5XAKG1mv6z0ErfUHFmYCMIQEfHgOdRyQebMD8g",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"color\":\"red\",\r\n    \"imagen\": \" https://i.ibb.co/cT9yvMy/Css.png\",\r\n    \"porcentaje\": 98\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/update/15?color=red&imagen=url skill&porcentaje=95",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"update",
+										"15"
+									],
+									"query": [
+										{
+											"key": "color",
+											"value": "red"
+										},
+										{
+											"key": "imagen",
+											"value": "url skill"
+										},
+										{
+											"key": "porcentaje",
+											"value": "95"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "person",
+					"item": [
+						{
+							"name": "localhost:8080/person/update/5",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY2NTYwMDcxMywiZXhwIjoxNjY1NjA0MzEzfQ.Gg47oMkuGrlKdNY5lCcfL0UM8BnIKHeU6ZqoLv-Z-h1DHedD30k3qZdTP9VH-GsI9fumzwYH_FHV05870U8nbw",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombre\":\"James  \",\r\n    \"apellido\":\" Bond UK\",\r\n    \"descPers\":\"enigma total\",\r\n    \"imagen\":\"https://i.pinimg.com/originals/02/7c/15/027c15f935207d5b7388196f8bc967e7.jpg\",\r\n    \"telefono\":\"0007\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/person/update/2",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"person",
+										"update",
+										"2"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "proje",
+					"item": [
+						{
+							"name": "localhost:8080/proje/update/11",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreProj\":\"chatBot Whatsapp\",\r\n    \"descProj\":\"es un chatBot con IA de google\",\r\n    \"imagenProj\":\"https://acortar.link/zSfxXy\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/proje/update/4",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"proje",
+										"update",
+										"4"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/person/update/2",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreProj\":\"Trabajos para la URSS \",\r\n    \"descProj\":\"doble agente de la KGB -MI6\",\r\n    \"imagenProj\":\"https://i.ibb.co/7RDYsCb/K.jpg\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/proje/update/4",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"proje",
+										"update",
+										"4"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "DEL",
+			"item": [
+				{
+					"name": "expjob",
+					"item": [
+						{
+							"name": "localhost:8080/expjob/delete/4",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreExp\":\"cocacola\",\r\n    \"fechaInicio\":\"11-12-1921\",\r\n    \"fechaFinal\":\"11-12-1931\",\r\n    \"descExp\":\"gerente\",\r\n    \"imgExp\":\"coca-cola.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/expjob/delete/8",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"expjob",
+										"delete",
+										"8"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/expjob/delete/4",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreExp\":\"cocacola\",\r\n    \"fechaInicio\":\"11-12-1921\",\r\n    \"fechaFinal\":\"11-12-1931\",\r\n    \"descExp\":\"gerente\",\r\n    \"imgExp\":\"coca-cola.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/expjob/delete/9",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"expjob",
+										"delete",
+										"9"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/expjob/delete/4",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreExp\":\"cocacola\",\r\n    \"fechaInicio\":\"11-12-1921\",\r\n    \"fechaFinal\":\"11-12-1931\",\r\n    \"descExp\":\"gerente\",\r\n    \"imgExp\":\"coca-cola.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/expjob/delete/4",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"expjob",
+										"delete",
+										"4"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "educat",
+					"item": [
+						{
+							"name": "localhost:8080/sh&ss/delete/3",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreExp\":\"cocacola\",\r\n    \"fechaInicio\":\"11-12-1921\",\r\n    \"fechaFinal\":\"11-12-1931\",\r\n    \"descExp\":\"gerente\",\r\n    \"imgExp\":\"coca-cola.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/delete/3",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"delete",
+										"3"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/delete/2",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreEduc\":\"Saint Gregory of Tokyo\",\r\n    \"fechaInico\":\"1-1-1974\",\r\n    \"fechaFinal\":\"31-12-1978\",\r\n    \"descEduc\":\"Pintor surrealista e impresionista\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/delete/2",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"delete",
+										"2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/delete/3",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreEduc\":\"Saint Gregory of Tokyo\",\r\n    \"fechaInico\":\"1-1-1974\",\r\n    \"fechaFinal\":\"31-12-1978\",\r\n    \"descEduc\":\"Pintor surrealista e impresionista\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/delete/2",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"delete",
+										"2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/educat/delete/3",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreEduc\":\"Saint Gregory of Tokyo\",\r\n    \"fechaInico\":\"1-1-1974\",\r\n    \"fechaFinal\":\"31-12-1978\",\r\n    \"descEduc\":\"Pintor surrealista e impresionista\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/educat/delete/3",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"educat",
+										"delete",
+										"3"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "sh&ss",
+					"item": [
+						{
+							"name": "localhost:8080/sh&ss/delete/17",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreSkill\":\"C++\",\r\n    \"imagenSkill\":\"url IMG\",\r\n    \"porcentaje\":\"78\",\r\n    \"color\":\"brown\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/delete/7",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"delete",
+										"7"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/delete/8",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombreSkill\":\"c++\",\r\n    \"imagenSkill\":\"urlC++\",\r\n    \"porcentaje\":\"48\",\r\n    \"color\":\"red\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/sh&ss/delete/8",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"delete",
+										"8"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/delete/10",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/sh&ss/delete/11",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"delete",
+										"11"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/delete/15",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/sh&ss/delete/15",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"delete",
+										"15"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/sh&ss/delete/15",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/sh&ss/delete/15",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"sh&ss",
+										"delete",
+										"15"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "person",
+					"item": [
+						{
+							"name": "localhost:8080/person/delete/5",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY2MTg3MDExOCwiZXhwIjoxNjYxODczNzE4fQ.HPCdr43GjUi9KtkEb7agzdWmIhCmKJZIT--nVui80SRtiveD25zngVPI2UQeRo7YR2B_CLGYk5UMW7sMv32tow",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nombre\":\"Cacho \",\r\n    \"apellido\":\"Castaña\",\r\n    \"imagen\":\"http://th.bing.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/person/delete/1",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"person",
+										"delete",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "proje",
+					"item": [
+						{
+							"name": "localhost:8080/proje/delete/11",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/proje/delete/3",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"proje",
+										"delete",
+										"3"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8080/proje/delete/5",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/proje/delete/5",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"proje",
+										"delete",
+										"5"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
